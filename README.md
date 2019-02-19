@@ -1,4 +1,6 @@
 # Install RSAT on Windows 10 1809
-Microsoft no longer provides a singular installer file for Windows 10 1809+. This script will install all of the tools so that you do not have to use the GUI. 
+Microsoft no longer provides a installer file for the Remote Server Administration Tools on Windows 10 Version 1809+. This script will install all of the tools without needing to use the GUI. 
 
-It will also account for needing internet access and temporarily allowing online Windows Updates if you block online updates with WSUS. 
+If you currently block online updates because your organization uses WSUS, it will temporarily change the registry keys to allow online updates and install the tools using DISM.exe. 
+
+For more information, consult https://www.microsoft.com/en-us/download/details.aspx?id=45520
