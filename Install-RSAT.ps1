@@ -44,7 +44,8 @@ $features = @(
     "Rsat.StorageReplica.Tools~~~~0.0.1.0", 
     "Rsat.VolumeActivation.Tools~~~~0.0.1.0", "Rsat.WSUS.Tools~~~~0.0.1.0", 
     "Rsat.StorageMigrationService.Management.Tools~~~~0.0.1.0",
-    "Rsat.SystemInsights.Management.Tools~~~~0.0.1.0"
+    "Rsat.SystemInsights.Management.Tools~~~~0.0.1.0",
+    "Rsat.BitLocker.Recovery.Tools~~~~0.0.1.0"
 )
 
 $featuresCount = $features.Count
